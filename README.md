@@ -10,7 +10,7 @@
 <br />
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/NicolasMICAUX/searchin/main/images/logo.png" alt="Logo" width="160" height="160">
+  <img src="https://raw.githubusercontent.com/NicolasMICAUX/foolproof/main/images/logo.png" alt="Logo" width="160" height="160">
   <h1 align="center">FoolProof</h1>
 
   <p align="center">
