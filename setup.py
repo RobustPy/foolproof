@@ -1,9 +1,15 @@
 """Setup.py for Pypi.org"""
+import package_obfuscator
+from setuptools import find_packages
+
+package_obfuscator.obfuscate("foolproof", output="obsfucated_foolproof")
+# partial obsfucation => one can still recover the variable names
+
 from distutils.core import setup
 
 setup(
-    name="foolproof",
-    packages=["foolproof"],
+    name="obsfucated_foolproof",
+    packages=find_packages(include=["obsfucated_foolproof", "obsfucated_foolproof.*"]),
     version="0.1.0",
     description="Find all exceptions that your code and its dependencies can raise, to make your work foolproof!",
     author="Nicolas Micaux",

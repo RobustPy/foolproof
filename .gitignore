@@ -1,4 +1,7 @@
 __pycache__
 *.pyc
+dist
 build
 foolproof.egg-info
+obsfucated_foolproof
+obsfucated_foolproof.egg-info
