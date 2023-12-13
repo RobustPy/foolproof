@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <div style="font-size: 160px;">🪨</div>
+  <img src="https://raw.githubusercontent.com/NicolasMICAUX/searchin/main/images/logo.png" alt="Logo" width="160" height="160">
   <h1 align="center">FoolProof</h1>
   <p align="center">
 Trouvez toutes les exceptions que votre code et ses dépendances peuvent générer, afin de rendre votre code infaillible !<br/>
