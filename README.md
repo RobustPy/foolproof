@@ -1,8 +1,10 @@
 <a name="readme-top"></a>
-[![Contributors][contributors-shield]][contributors-url]<!--[![Forks][forks-shield]][forks-url]-->
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]<!--[![MIT License][license-shield]][license-url]--><!--[![LinkedIn][linkedin-shield]][linkedin-url]-->
-[![PyPi version][pypi-shield]][pypi-url]<!--[![Python 2][python2-shield]][python-url]-->
+<!-- [![Contributors][contributors-shield]][contributors-url][![Forks][forks-shield]][forks-url] -->
+<!-- [![Stargazers][stars-shield]][stars-url] -->
+<!-- [![Issues][issues-shield]][issues-url] -->
+<!--[![LinkedIn][linkedin-shield]][linkedin-url]-->
+[![PyPi version][pypi-shield]][pypi-url]
+<!--[![Python 2][python2-shield]][python-url]-->
 [![Python 3][python3-shield]][python-url]
 
 

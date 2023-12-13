@@ -10,7 +10,7 @@ from distutils.core import setup
 setup(
     name="foolproof",
     packages=find_packages(include=["obsfucated_foolproof", "obsfucated_foolproof.*"]),
-    version="0.1.0",
+    version="0.1.1",
     description="Find all exceptions that your code and its dependencies can raise, to make your work foolproof!",
     author="Nicolas Micaux",
     url="https://github.com/NicolasMICAUX/foolproof",
