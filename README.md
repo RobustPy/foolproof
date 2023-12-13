@@ -10,7 +10,7 @@
 <br />
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/NicolasMICAUX/foolproof/main/images/logo.png" alt="Logo" width="160" height="160">
+  <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1faa8.png" alt="Logo" width="160" height="160">
   <h1 align="center">FoolProof</h1>
 
   <p align="center">
