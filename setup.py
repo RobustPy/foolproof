@@ -4,16 +4,17 @@ from distutils.core import setup
 from setuptools import find_packages
 
 
-if os.environ.get("OBSFUCATE", 0) == 1:
+if os.environ.get("OBFUSCATE", "0") == "1":
     import package_obfuscator
 
+    print("Obfuscating package...")
     package_obfuscator.obfuscate("foolproof", output="obsfucated_foolproof")
 
 
 setup(
     name="foolproof",
-    packages=find_packages(include=["obsfucated_foolproof", "obsfucated_foolproof.*"]),
-    version="0.1.2",
+    packages=find_packages(include=["obsfucated_foolproof", "obsfucated_foolproof.*"], exclude=[".git"]),
+    version="0.1.4",
     description="Find all exceptions that your code and its dependencies can raise, to make your work foolproof!",
     author="Nicolas Micaux",
     author_email="micaux.nicolas@gmail.com",
