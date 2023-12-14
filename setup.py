@@ -8,13 +8,18 @@ if os.environ.get("OBFUSCATE", "0") == "1":
     import package_obfuscator
 
     print("Obfuscating package...")
-    package_obfuscator.obfuscate("src", output="foolproof")
+    package_obfuscator.obfuscate("src", output="foolproof", force_output_overwrite=True)
 
 
 setup(
     name="foolproof",
-    packages=find_packages(include=["foolproof", "foolproof.*"], exclude=[".git"]),
-    version="0.1.4",
+    packages=find_packages(include=["foolproof", "foolproof.*"]),
+    include_package_data=True,
+    package_data={
+        "": ["*.pyc"],
+        "foolproof": ["__custom_pycache__/*.pyc"],
+    },
+    version="0.1.6",
     description="Find all exceptions that your code and its dependencies can raise, to make your work foolproof!",
     author="Nicolas Micaux",
     author_email="micaux.nicolas@gmail.com",
