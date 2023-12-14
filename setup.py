@@ -19,7 +19,7 @@ setup(
         "": ["*.pyc"],
         "foolproof": ["__custom_pycache__/*.pyc"],
     },
-    version="0.1.6",
+    version="0.1.8",
     description="Find all exceptions that your code and its dependencies can raise, to make your work foolproof!",
     author="Nicolas Micaux",
     author_email="micaux.nicolas@gmail.com",
