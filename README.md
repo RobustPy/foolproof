@@ -104,7 +104,8 @@ Don't forget to give the project a star! Thanks again!
 
 
 ## Author
-This library was created by [Nicolas MICAUX](https://github.com/NicolasMICAUX).
+This library was created by [Nicolas MICAUX](https://github.com/NicolasMICAUX).  
+You might also be interested by [autotestreg](https://github.com/RobustPy/autotestreg)  
 
 ## Acknowledgements
 A lot of this code is taken from https://github.com/DontShaveTheYak/deep-ast (https://pypi.org/project/deep-ast/)  
